@@ -1,0 +1,31 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.item-text {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+}
+
+.item-name {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.item-componentes {
+    font-size: 20px;
+    color: #666;
+    margin: 2px 0 0 0;
+}
+
+.item-price {
+    color: #555;
+    font-weight: bold;
+    margin: 0;
+}
